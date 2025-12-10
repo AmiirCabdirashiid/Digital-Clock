@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #1a1a2e;
+    font-family: sans-serif;
+}
+
+.head{
+    font-size: 5rem;
+    color: antiquewhite;
+    font-family: sans-serif;
+    margin-top: 10vh;
+    display: none;
+}
+
+.clock-container{
+    background-color: #16212e;
+    border-radius: 10px;
+    padding: 40px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+
+}
+
+.time{
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    align-items: flex-end;
+}
+
+.am-pm{
+    font-size: 1.3rem;
+    color: #8f8f8f;
+    font-family: sans-serif;
+}
+
+.date{
+    font-size: 1.3rem;
+    color: #8f8f8f;
+    font-family: sans-serif;
+}
